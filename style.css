@@ -1,0 +1,105 @@
+
+.text1{
+    font-size: 55px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 20px 23px 10px;
+    color: black;
+}
+
+.pink{
+    color: rgb(252, 140, 159);
+    text-shadow: 23px 23px 10px rgb(214, 136, 136);
+}
+.blue{
+    color: rgb(130, 130, 248);
+    text-shadow: 23px 23px 10px rgb(130, 130, 248);
+}
+.maintext1{ 
+  user-select: none; 
+  font-family: "Pacifico", cursive;  
+  text-align: center; 
+  display: block; 
+  font-size: 40px; 
+  position: relative;
+ top: -70px;
+ 
+} 
+    
+ body {
+    height: 100vh;
+    background: #f4f4f4;
+    margin: 0;
+    position: relative;
+    font-family: Arial, sans-serif;
+  }
+
+  .centered-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+  }
+
+  .balloon {
+    display: block;
+    margin-left: auto;
+    margin-right: 50px;
+    width: 100px;
+  }
+
+  .balloon1 {
+    display: block;
+    margin-left: 50px;
+    margin-right: auto;
+    width: 100px;
+  }
+
+  .btn {
+    position: absolute;
+    padding: 20px 40px;    
+      background-color: #6aa7e9;
+    color: rgb(24, 22, 22);
+    text-decoration: none;
+    border-radius: 200px;    
+    font-size: 24px;       
+    font-weight: bold;
+    
+  }
+
+   .btn:active,
+  .btn:hover {
+    transform: scale(1.2);
+  }
+ 
+  #btn1 { top: 60px; left: 150px; background-color: rgba(238, 130, 238, 0.808);}
+  #btn2 { top: 60px; right: 150px; background-color: rgba(243, 243, 140, 0.849);}
+  #btn3{top: 380px; right: 100px; background-color: #48e4ffc2;}
+  #btn4{top: 380px; left: 100px; background-color: rgba(255, 108, 54, 0.767);}
+  #btn5 { top: 70%; left: 50%; transform: translate(-50%, -50%); background-color: rgba(153, 231, 36, 0.808);}
+
+   #btn5:hover,
+  #btn5:active {
+    transform: translate(-50%, -50%) scale(1.2);
+}
+  
+
+ .confetti {
+      width: 10px;
+      height: 10px;
+      position: absolute;
+      opacity: 0.9;
+      animation: fall 1s linear infinite;
+    }
+
+
+    @keyframes fall {
+      0% { transform: translateY(-20px); }
+      100% { transform: translateY(100vh); }
+    }
+
+    #c1 { left: 10%; background: rgb(161, 29, 29); animation-delay: 0s; }
+    #c2 { left: 25%; background: rgb(243, 240, 70); animation-delay: 0.5s; }
+    #c3 { left: 40%; background: rgb(224, 116, 134); animation-delay: 1s; }
+    #c4 { left: 55%; background: rgb(121, 204, 231); animation-delay: 0.3s; }
+    #c5 { left: 70%; background: rgb(77, 77, 165); animation-delay: 1.3s; }
+    #c6 { left: 85%; background: rgb(104, 218, 104); animation-delay: 0.8s; }
